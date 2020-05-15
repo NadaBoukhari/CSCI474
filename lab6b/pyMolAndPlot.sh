@@ -57,13 +57,13 @@ done
 
 # gnuplot commands for terminal, x and y ranges, labels, title, etc.
 echo "set term png" > gnuplot.gpl
-echo "set output 'flapCatSitePlot.png'" >> gnuplot.gpl
+echo "set output 'LabeledPlot.png'" >> gnuplot.gpl
 echo "set xrange[0:9]" >> gnuplot.gpl
 
 # to-do : Add an X label, Y label, and Title for the plot
-set title "Flap-catalytic site separation distance, 8 HIV-1 protease variants"
-set ylabel "Separation Distance (Ansgstroms)"
-set xlabel "Structure"
+echo "set title 'Flap-catalytic site separation distance, 8 HIV-1 protease variants'">> gnuplot.gpl
+echo "set ylabel 'Separation Distance (Ansgstroms)'" >> gnuplot.gpl
+echo "set xlabel 'Structure'" >> gnuplot.gpl
 
 
 # make xtic labels and generate the plot, and invoke gnuplot
