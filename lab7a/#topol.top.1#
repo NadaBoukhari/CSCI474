@@ -14835,9 +14835,8 @@ Protein_chain_A     3
 
 [ system ]
 ; Name
-UNLIGANDED HIV-1 PROTEASE in water
+UNLIGANDED HIV-1 PROTEASE
 
 [ molecules ]
 ; Compound        #mols
 Protein_chain_A     1
-SOL              9986
